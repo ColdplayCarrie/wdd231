@@ -1,0 +1,154 @@
+/*color scheme
+White: #ffffff
+(very pale light gray green): #e4efed
+Dark Gray Turquoise: #2E5147
+Light Orange: #f8f1e1
+Dark Gray Green: #2a4235
+Orange: #f39926
+Gray Green: #9fb3a6
+
+*/
+
+* {
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+/*.open-sans-<uniquifier> {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}*/
+/*
+.libre-baskerville-regular {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.libre-baskerville-bold {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.libre-baskerville-regular-italic {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 400;
+    font-style: italic;
+}*/
+
+/*HEADER*/
+
+header {
+    display: grid;
+    grid-template-columns: 84px auto 44px;
+    padding: 5px 0 5px 10px;
+    align-items: center;
+    border-bottom: solid 1px #f39926;
+    column-gap: 8px;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-bottom: 5px;
+    /*border-radius: 50%;*/
+}
+
+header span {
+    font-size: xx-large;
+    color: #2a4235;
+}
+
+h1, section {
+    margin-left: 10px;
+    color: #2a4235;
+}
+
+/*NAVIGATION*/
+.navigation {
+    display: none;
+}
+
+.navigation.show {
+    display: block;
+}
+
+.navigation a {
+    display: block;
+    padding: .75rem 10px;
+    text-decoration: none;
+    color: #2a4235;
+    border-bottom: solid 1px #ddd;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/*.navigation li.current {
+    background-color: #eee;
+}*/
+
+.navigation a:hover {
+    background-color: #f8f1e1;
+}
+
+/*HAMBURGER*/
+.hamburger {
+    background: none;
+    border: none;
+    color: #483D8B;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hamburger::before {
+    content: "\2630";
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+}
+
+
+/*FOOTER*/
+footer {
+    background-color: #2E5147;
+    color: #f8f1e1 ;
+    padding: 1rem 10px;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    column-gap: 8px;
+}
+
+.social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: #2E5147 solid 1px;
+    background-color: #e4efed;
+    border-radius: 4px;
+    width: 44px;
+    height: 44px;
+}
+
+.social img {
+    width: 22px;
+    height: 22px;
+}
+
+.social a:hover {
+    background-color: #ddd;
+}
