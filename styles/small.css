@@ -41,6 +41,12 @@ Gray Green: #9fb3a6
     font-style: italic;
 }*/
 
+h1,
+h2 {
+    margin-left: 10px;
+    color: #2a4235;
+}
+
 /*HEADER*/
 
 header {
@@ -62,11 +68,6 @@ header img {
 
 header span {
     font-size: xx-large;
-    color: #2a4235;
-}
-
-h1, section {
-    margin-left: 10px;
     color: #2a4235;
 }
 
@@ -122,7 +123,7 @@ h1, section {
 /*FOOTER*/
 footer {
     background-color: #2E5147;
-    color: #f8f1e1 ;
+    color: #f8f1e1;
     padding: 1rem 10px;
     text-align: center;
 }

@@ -16,6 +16,7 @@
         display: block;
         border-top: solid 1px #eee;
         border-bottom: solid 1px #eee;
+        background-color: #e4efed;
     }
 
     .navigation ul {
