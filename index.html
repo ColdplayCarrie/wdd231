@@ -11,15 +11,10 @@
     <link rel="stylesheet" href="styles/small.css">
     <link rel="stylesheet" href="styles/larger.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <!--<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>-->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
         rel="stylesheet">
-    <!--<link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
-        rel="stylesheet">-->
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/date.js" defer></script>
     <script src="scripts/course.js" defer></script>
@@ -35,8 +30,8 @@
     <nav id="nav-bar" class="navigation">
         <ul>
             <li><a href="https://ColdplayCarrie.github.io/wdd231/index.html">Home</a></li>
-            <li><a href="#">Chamber</a></li>
-            <li><a href="#">Final</a></li>
+            <li><a href="#">Chamber Project</a></li>
+            <li><a href="#">Final Project</a></li>
             <!--<li><a href="#">Discover</a></li>
             <li><a href="#">Business Directory</a></li>
             <li><a href="#">Join</a></li>
@@ -51,15 +46,38 @@
 
         <section>
             <h2>About Me</h2>
+            <p>words about me ... i can't remember that latin stuff to put here as a placeholder</p>
         </section>
 
-        <section>
+        <section class="selfie">
             <h2>Student Photo</h2>
+            <img src="" alt="Photo of Carrie Amdal" width="512" height="512">
         </section>
 
-        <section>
-            <h2>Web Certificate Courses</h2>
+        <section class="courses">
+            <h2 class="certificatecourses">Web Certificate Courses</h2>
+            <div class="course-type-btns">
+                <button id="all-courses-btn" class="allcourses" aria-label="All Courses">All</button>
+                <button id="wdd-btn" class="wddcourses" aria-label="WDD Courses">WDD</button>
+                <button id="cse-btn" class="csecourses" aria-label="CSE Courses">CSE</button>
+            </div>
         </section>
+
+        <section class="course-names">
+            <div class="course-name-btns">
+                <button id="cse-110-btn" class="cse110" aria-label="CSE 110">CSE 110</button>
+                <button id="wdd-130-btn" class="wdd130" aria-label="WDD 130">WDD 130</button>
+                <button id="cse-111-btn" class="cse111" aria-label="CSE 111">CSE 111</button>
+                <button id="cse-210-btn" class="cse210" aria-label="CSE 210">CSE 210</button>
+                <button id="wdd-131-btn" class="wdd131" aria-label="WDD 131">WDD 131</button>
+                <button id="wdd-231-btn" class="wdd231" aria-label="WDD 231">WDD 231</button>
+            </div>
+        </section>
+
+        <section class="total-credits">
+            <p>The total credits for courses listed above is</p>
+        </section>
+
     </main>
 
     <footer>

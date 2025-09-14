@@ -1,3 +1,5 @@
+
+
 const courses = [
     {
         subject: 'CSE',
@@ -77,3 +79,15 @@ const courses = [
         completed: false
     }
 ] 
+
+function createCourseButton(course) {
+    return `
+    <div class="course-button">
+        <span class="course-name">${course.subject} ${course.number}</span>
+    </div>
+`;
+}
+
+function renderCourseButton(courseToRender) {
+    
+}
