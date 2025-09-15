@@ -102,7 +102,7 @@ function createCourse(course) {
 
     return `
     <div class="course-item ${completedClass}">
-      <h3>${checkmark}${course.subject} (${course.number})</h3>
+      <h3>${checkmark}${course.subject} ${course.number}</h3>
     </div>
   `;
 }
