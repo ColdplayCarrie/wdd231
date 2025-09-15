@@ -78,16 +78,47 @@ const courses = [
         ],
         completed: false
     }
-] 
+]
 
-function createCourseButton(course) {
+const allCoursesBtn = document.querySelector("#all-courses-btn");
+const wddBtn = document.querySelector("#wdd-btn");
+const cseBtn = document.querySelector("#cse-btn");
+const courseListContainer = document.querySelector("#course-list");
+const totalCreditsParagraph = document.querySelector("#total-credits-value");
+
+function renderCourses(filteredCourses) {
+    courseListContainer.innerHTML = "";
+    const newCourseArray = filteredCourses.map(course => createCourse(course));
+    courseListContainer.innerHTML = newCourseArray.join("");
+
+    const totalCredits = filteredCourses.reduce((sum, course) => sum + course.credits, 0);
+
+    totalCreditsParagraph.textContent = `The total credits for courses listed above is ${totalCredits}`;
+}
+
+function createCourse(course) {
+    const completedClass = course.completed ? "completed-course" : "";
+    const checkmark = course.completed ? " ✅" : "";
+
     return `
-    <div class="course-button">
-        <span class="course-name">${course.subject} ${course.number}</span>
+    <div class="course-item ${completedClass}">
+      <h3>${checkmark}${course.subject} (${course.number})</h3>
     </div>
-`;
+  `;
 }
 
-function renderCourseButton(courseToRender) {
-    
-}
+allCoursesBtn.addEventListener("click", () => {
+    renderCourses(courses);
+})
+
+wddBtn.addEventListener("click", () => {
+    const wddCourses = courses.filter(course => course.subject === 'WDD');
+    renderCourses(wddCourses);
+})
+
+cseBtn.addEventListener("click", () => {
+    const cseCourses = courses.filter(course => course.subject === "CSE");
+    renderCourses(cseCourses);
+})
+
+renderCourses(courses);

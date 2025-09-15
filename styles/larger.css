@@ -8,10 +8,6 @@
         margin: 0 auto;
     }
 
-    /*header {
-        grid-template-columns: 24px auto;
-    }*/
-
     .navigation {
         display: block;
         border-top: solid 1px #eee;
@@ -28,7 +24,6 @@
     .navigation li {
         padding-right: 2rem;
         font-weight: bold;
-        /*border-right: solid 1px #483D8B;*/
     }
 
     .navigation a {
@@ -39,5 +34,9 @@
         display: none;
     }
 
+    #course-list {
+        margin-left: 175px;
+        margin-right: 160px;
+    }
 
 }
