@@ -1,0 +1,163 @@
+/*color scheme
+White: #ffffff
+(very pale light gray green): #e4efed
+Dark Gray Turquoise: #2E5147
+Light Orange: #f8f1e1
+**will I use this one?? -Dark Gray Green: #2a4235
+Orange: #f39926
+Gray Green: #9fb3a6*/
+
+* {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --main-dark-green: #2E5147;
+    --main-orange: #f39926;
+    --medium-gray-green: #9fb3a6;
+    --pale-light-gray-green: #e4efed;
+    --light-orange: #f8f1e1;
+}
+
+h1 {
+    margin-left: 5px;
+    color: var(--main-dark-green);
+}
+
+p {
+    padding-bottom: 15px;
+}
+
+/****HEADER****/
+
+header {
+    display: grid;
+    grid-template-columns: 84px auto 44px;
+    padding: 5px 0 5px 10px;
+    align-items: center;
+    border-bottom: solid 1px var(--main-orange);
+    column-gap: 8px;
+}
+
+.main-header {
+    padding: 20px;
+    background-color: transparent;
+}
+
+header img {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding-bottom: 5px;
+    /*border-radius: 50%;*/
+}
+
+header span {
+    font-size: x-large;
+    font-weight: bold;
+    color: var(--main-dark-green);
+}
+
+/****NAVIGATION****/
+.navigation {
+    display: none;
+    font-size: large;
+}
+
+.navigation.show {
+    display: block;
+}
+
+.navigation a {
+    display: block;
+    padding: .75rem 10px;
+    text-decoration: none;
+    color: var(--main-dark-green);
+    border-bottom: solid 1px #ddd;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navigation a:hover {
+    background-color: var(--light-orange);
+}
+
+/****HAMBURGER****/
+.hamburger {
+    background: none;
+    border: none;
+    color: #483D8B;
+    cursor: pointer;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.hamburger::before {
+    content: "\2630";
+}
+
+.hamburger.show::before {
+    content: "\00D7";
+}
+
+/****HERO IMAGE****/
+.hero {
+    background-image: url("../images/mt-hood-newhero.webp");
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-between;*/
+}
+
+.hero-image {
+    color: white;
+    text-align: center;
+}
+
+/*.hero-image img {
+    max-width: 700px;
+}*/
+
+/****FOOTER****/
+footer {
+    background-color: var(--main-dark-green);
+    color: var(--light-orange);
+    padding: 10px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    column-gap: 20px;
+    padding-bottom: 15px;
+}
+
+.social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: var(--main-dark-green) solid 1px;
+    background-color: var(--pale-light-gray-green);
+    border-radius: 4px;
+    width: 44px;
+    height: 44px;
+}
+
+.social img {
+    width: 22px;
+    height: 22px;
+}
+
+.social a:hover {
+    background-color: #ddd;
+}

@@ -1,0 +1,38 @@
+@media only screen and (min-width: 38rem) {
+
+    header,
+    main,
+    nav,
+    footer {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+
+    .navigation {
+        display: block;
+        border-top: solid 1px #eee;
+        border-bottom: solid 1px #eee;
+        background-color: #e4efed;
+    }
+
+    .navigation ul {
+        display: flex;
+        column-gap: 8px;
+        list-style-type: none;
+    }
+
+    .navigation li {
+        padding-right: 2rem;
+        font-weight: bold;
+    }
+
+    .navigation a {
+        border: none;
+    }
+
+    .hamburger {
+        display: none;
+    }
+
+
+}
