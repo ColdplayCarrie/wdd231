@@ -66,3 +66,24 @@ const displayMembers = (members) => {
         membersCard.appendChild(card);
     })
 }
+
+//Member Grid--List//
+
+const gridbutton = document.querySelector("#grid");
+const listbutton = document.querySelector("#list");
+// const display = document.querySelector(".member-card-container");
+
+gridbutton.addEventListener("click", () => {
+    membersCard.classList.add("grid");
+    membersCard.classList.remove("list");
+});
+
+listbutton.addEventListener("click", () => {
+    membersCard.classList.add("list");
+    membersCard.classList.remove("grid");
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+    const membersCard = document.querySelector("#members");
+    membersCard.classList.add("grid");
+});

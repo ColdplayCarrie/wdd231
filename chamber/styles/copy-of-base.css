@@ -24,21 +24,21 @@ Gray Green: #9fb3a6*/
 h1 {
     margin-left: 5px;
     color: var(--main-dark-green);
-}
-
-p {
-    padding-bottom: 15px;
+    font-size: 3rem;
+    text-decoration: underline;
 }
 
 /****HEADER****/
+
 header.main-header {
+    display: flex;
+    column-gap: 5px;
     background-image: url("../images/mt-hood-newhero.webp");
     min-width: 320px;
     min-height: 400px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    display: flex;
     justify-content: space-between;
     padding: 20px;
     background-color: transparent;
@@ -47,6 +47,7 @@ header.main-header {
 .brand-info {
     display: flex;
     gap: 10px;
+    max-width: 288px;
 }
 
 .brand-info img {
@@ -62,31 +63,36 @@ header.main-header {
 }
 
 /****NAVIGATION****/
+
 .navigation {
-    background-color: transparent !important;
-    padding: 10px 20px;
     display: flex;
-    align-items: center;
-    border-bottom: none !important;
+    justify-content: space-between;
+    align-items: start;
+    max-height: fit-content;
+    list-style: none;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, .3);
 }
 
 .navigation ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    align-items: center;
-    gap: 20px;
+    padding-left: 0;
+    margin-left: 0;
+    padding-right: 15px;
 }
 
 .navigation a {
-    display: block;
-    padding: .75rem 0;
+    display: none;
     text-decoration: none;
     color: white;
     font-weight: bold;
+    font-size: large;
     border-bottom: none;
-    background-color: transparent;
+    padding: .75rem 0;
+}
+
+.open a {
+    display: block;
 }
 
 .navigation a:hover {
@@ -94,21 +100,21 @@ header.main-header {
 }
 
 /****HAMBURGER****/
-.hamburger {
+#ham-btn {
+    display: flex;
     background: none;
     border: none;
-    color: var(--main-dark-green);
+    color: black;
     cursor: pointer;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 2em;
-
+    font-size: xx-large;
 }
 
-.hamburger::before {
+#ham-btn::before {
     content: "\2630";
 }
 
-.hamburger.show::before {
+#ham-btn.open::before {
     content: "\00D7";
 }
 
@@ -146,4 +152,85 @@ footer {
 
 .social a:hover {
     background-color: #ddd;
+}
+
+/****Member Cards****/
+.member-card-container {
+    padding-bottom: 20px;
+}
+
+#members section {
+    margin: 20px;
+    padding: 20px;
+    background-color: var(--pale-light-gray-green);
+    box-shadow: 10px 10px gray;
+    text-align: center;
+}
+
+h2 {
+    color: var(--main-dark-green);
+    font-style: italic;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+#members p {
+    font-size: small;
+    padding: .25rem;
+}
+
+#members a {
+    font-size: small;
+    color: navy;
+    font-weight: bold;
+    padding: .25rem;
+}
+
+#members img {
+    border: 1px solid black;
+}
+
+/****Grid or List View****/
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-gap: 5px;
+    align-items: center;
+}
+
+h3 {
+    font-size: 1.2rem;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+}
+
+.list section {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    margin: 0;
+    padding: 0.25rem;
+
+    &>* {
+        margin: 0 1rem;
+    }
+
+    img {
+        display: none;
+    }
+
+    h3 {
+        font-size: 1rem;
+    }
+
+    &:nth-child(even) {
+        background-color: #bbb;
+    }
+}
+
+img {
+    width: auto;
+    height: 75px;
 }
