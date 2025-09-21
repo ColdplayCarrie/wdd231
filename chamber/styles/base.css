@@ -171,7 +171,7 @@ h3 {
 
 .member-card-container.grid {
     display: grid;
-    grid-template-columns: (1fr 1fr 1fr);
+    grid-template-columns: 1fr 1fr 1fr;
     gap: 1rem;
     align-items: center;
 }
@@ -188,22 +188,14 @@ h3 {
     box-shadow: none;
     margin: 0;
     padding: 0.5rem;
+}
 
-    &>* {
-        margin: 0 1rem;
-    }
+.list section img {
+    display: none;
+}
 
-    img {
-        display: none;
-    }
-
-    h3 {
-        font-size: 1rem;
-    }
-
-    &:nth-child(even) {
-        background-color: #bbb;
-    }
+.list section:nth-child(even) {
+    background-color: #bbb;
 }
 
 /****FOOTER****/
