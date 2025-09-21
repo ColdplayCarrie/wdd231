@@ -1,0 +1,107 @@
+[
+    {
+        "name": "Bubotubers R Us",
+        "address": {
+            "street": "13666 Witches Way",
+            "city": "Hogsmeade",
+            "state": "Scotland",
+            "country": "United Kingdom",
+            "zip": "13777"
+        },
+        "phoneNumber": "+44 666-777-1313",
+        "websiteUrl": "https://bubotubersrus.com",
+        "imageOrIconFile": "images/bubotubers-r-us.webp",
+        "membershipLevel": "1",
+        "memberSince": "1997"
+    },
+    {
+        "name": "Quenchiest Cactus Juice & More",
+        "address": {
+            "street": "42 Appa Walk",
+            "city": "Si",
+            "state": "Wong Desert",
+            "country": "Earth",
+            "zip": "24442"
+        },
+        "phoneNumber": "+42 444-242-2242",
+        "websiteUrl": "https://thequenchiest.com",
+        "imageOrIconFile": "images/quenchiest-cactus.webp",
+        "membershipLevel": "2",
+        "memberSince": "2006"
+    },
+    {
+        "name": "Odds & Ents",
+        "address": {
+            "street": "13652 Treebeard Path",
+            "city": "Buckland",
+            "state": "The Shire",
+            "country": "Middle Earth",
+            "zip": "30303"
+        },
+        "phoneNumber": "+42 922-111-3001",
+        "websiteUrl": "https://oddsandents.com",
+        "imageOrIconFile": "images/odd-&-ents.webp",
+        "membershipLevel": "2",
+        "memberSince": "2890"
+    },
+    {
+        "name": "Sable's Stables",
+        "address": {
+            "street": "13 May Way",
+            "city": "Boring",
+            "state": "Oregon",
+            "country": "United States",
+            "zip": "97009"
+        },
+        "phoneNumber": "+1 503-530-0080",
+        "websiteUrl": "https://sablesstables.com",
+        "imageOrIconFile": "images/sables-stables.webp",
+        "membershipLevel": "3",
+        "memberSince": "2025"
+    },
+    {
+        "name": "SHINee World",
+        "address": {
+            "street": "6116 Pearl Aqua Avenue",
+            "city": "Seoul",
+            "state": "Gyeonggi Province",
+            "country": "South Korea",
+            "zip": "04769"
+        },
+        "phoneNumber": "+82 555-555-5555",
+        "websiteUrl": "https://shineeworld.com",
+        "imageOrIconFile": "images/shinee-world.webp",
+        "membershipLevel": "3",
+        "memberSince": "2008"
+    },
+    {
+        "name": "Dr Pepper Museum",
+        "address": {
+            "street": "300 S 5th Street",
+            "city": "Waco",
+            "state": "Texas",
+            "country": "United States",
+            "zip": "76701"
+        },
+        "phoneNumber": "+1 254-757-1024",
+        "websiteUrl": "https://drpeppermuseum.com",
+        "imageOrIconFile": "images/dr-pepper-logo.webp",
+        "membershipLevel": "2",
+        "memberSince": "1991"
+    },
+    {
+        "name": "North Pole Elves, Inc.",
+        "address": {
+            "street": "123 Elf Road",
+            "city": "The",
+            "state": "North",
+            "country": "Pole",
+            "zip": "88888"
+        },
+        "phoneNumber": "+1 605-313-4000",
+        "websiteUrl": "https://santaclaus.com",
+        "imageOrIconFile": "images/santa-claus-dot-com.webp",
+        "membershipLevel": "3",
+        "memberSince": "0001"
+    }
+]
