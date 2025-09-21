@@ -24,6 +24,8 @@ Gray Green: #9fb3a6*/
 h1 {
     margin-left: 5px;
     color: var(--main-dark-green);
+    font-size: 3rem;
+    text-decoration: underline;
 }
 
 p {
@@ -154,4 +156,14 @@ footer {
 
 .social a:hover {
     background-color: #ddd;
+}
+
+/****Member Cards****/
+#members section {
+    padding: 20px;
+}
+
+#members p {
+    font-size: small;
+
 }
