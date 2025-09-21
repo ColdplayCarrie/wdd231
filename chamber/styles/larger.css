@@ -1,38 +1,53 @@
-@media only screen and (min-width: 38rem) {
+@media only screen and (min-width: 575px) {
 
     header,
     main,
     nav,
     footer {
-        max-width: 900px;
+        max-width: 1100px;
         margin: 0 auto;
+    }
+
+    header {
+        justify-content: space-between !important;
+        display: flex;
     }
 
     .navigation {
         display: block;
         border-top: solid 1px #eee;
-        border-bottom: solid 1px #eee;
-        background-color: #e4efed;
+        margin: 0 !important;
+        background-color: rgba(0, 0, 0, .3);
+        padding-top: .25em;
+        padding-bottom: .25em;
     }
 
     .navigation ul {
         display: flex;
-        column-gap: 8px;
-        list-style-type: none;
+        list-style: none;
+        margin: 0;
+        justify-content: center;
     }
 
     .navigation li {
-        padding-right: 2rem;
+        padding-left: 10px;
+        padding-right: 10px;
+        align-items: center;
         font-weight: bold;
+        margin: auto;
     }
 
     .navigation a {
-        border: none;
+        display: block;
+        padding: .75rem 0;
+        text-decoration: none;
+        color: white;
+        font-weight: bold;
+        border-bottom: none;
     }
 
-    .hamburger {
+    #ham-btn {
         display: none;
     }
-
 
 }

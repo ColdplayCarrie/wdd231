@@ -31,16 +31,14 @@ p {
 }
 
 /****HEADER****/
-
 header.main-header {
-    display: flex;
-    column-gap: 5px;
     background-image: url("../images/mt-hood-newhero.webp");
     min-width: 320px;
     min-height: 400px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    display: flex;
     justify-content: space-between;
     padding: 20px;
     background-color: transparent;
@@ -49,7 +47,6 @@ header.main-header {
 .brand-info {
     display: flex;
     gap: 10px;
-    max-width: 288px;
 }
 
 .brand-info img {
@@ -65,36 +62,31 @@ header.main-header {
 }
 
 /****NAVIGATION****/
-
 .navigation {
+    background-color: transparent !important;
+    padding: 10px 20px;
     display: flex;
-    justify-content: space-between;
-    align-items: start;
-    max-height: fit-content;
-    list-style: none;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, .3);
+    align-items: center;
+    border-bottom: none !important;
 }
 
 .navigation ul {
     list-style-type: none;
-    padding-left: 0;
-    margin-left: 0;
-    padding-right: 15px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 
 .navigation a {
-    display: none;
+    display: block;
+    padding: .75rem 0;
     text-decoration: none;
     color: white;
     font-weight: bold;
-    font-size: large;
     border-bottom: none;
-    padding: .75rem 0;
-}
-
-.open a {
-    display: block;
+    background-color: transparent;
 }
 
 .navigation a:hover {
@@ -102,21 +94,21 @@ header.main-header {
 }
 
 /****HAMBURGER****/
-#ham-btn {
-    display: flex;
+.hamburger {
     background: none;
     border: none;
-    color: black;
+    color: var(--main-dark-green);
     cursor: pointer;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: xx-large;
+    font-size: 2em;
+
 }
 
-#ham-btn::before {
+.hamburger::before {
     content: "\2630";
 }
 
-#ham-btn.open::before {
+.hamburger.show::before {
     content: "\00D7";
 }
 
