@@ -139,9 +139,7 @@ h2 {
     padding-bottom: .5rem;
 }
 
-h3 {
-    font-size: 1.2rem;
-}
+
 
 #members p {
     font-size: small;
@@ -207,6 +205,9 @@ h3 {
 .list section:nth-child(even) {
     background-color: #bbb;
 }
+
+/****HOME - WEATHER CARDS****/
+
 
 /****FOOTER****/
 footer {

@@ -1,3 +1,4 @@
+//Footer//
 const year = document.querySelector("#year");
 const today = new Date();
 
@@ -6,7 +7,7 @@ year.innerHTML = `<span id="year">${today.getFullYear()}</span>`;
 let olastModified = document.querySelector("#lastModified");
 olastModified.innerHTML = `<span id="lastModified">${document.lastModified}</span>`;
 
-//hamburger menu button//
+//Header - hamburger menu button//
 const hamburgerBtn = document.querySelector('#ham-btn');
 const navMenu = document.querySelector('#nav-bar');
 
@@ -15,7 +16,7 @@ hamburgerBtn.addEventListener('click', () => {
     hamburgerBtn.classList.toggle('open');
 });
 
-//member grid stuff//
+//Directory -member grid stuff//
 const url = "https://ColdplayCarrie.github.io/wdd231/chamber/data/members.json";
 const membersCard = document.querySelector("#members");
 
@@ -67,20 +68,24 @@ const displayMembers = (members) => {
     })
 }
 
-//Member Grid--List//
+//Directory - Member Grid--List//
 
 const gridbutton = document.querySelector("#grid");
 const listbutton = document.querySelector("#list");
-const display = document.querySelector("article");
 
 gridbutton.addEventListener("click", () => {
-    display.classList.add("grid");
-    display.classList.remove("list");
+    membersCard.classList.add("grid");
+    membersCard.classList.remove("list");
 });
 
-listbutton.addEventListener("click", showList); // example using defined function
+listbutton.addEventListener("click", () => {
+    membersCard.classList.add("list");
+    membersCard.classList.remove("grid");
+});
 
-function showList() {
-    display.classList.add("list");
-    display.classList.remove("grid");
-}
+document.addEventListener('DOMContentLoaded', () => {
+    const membersCard = document.querySelector("#members");
+    membersCard.classList.add("grid");
+});
+
+//Home - Weather//
