@@ -5,7 +5,7 @@ const captionDesc = document.querySelector('figcaption');
 const myKey = "2936b130fdb47b8a30ab3d699edf700a"
 const myLat = "49.75"
 const myLong = "6.63"
-
+ 
 const url = `//api.openweathermap.org/data/2.5/weather?lat=${myLat}&lon=${myLong}&units=imperial&appid=${myKey}`
 // 49.75292748795943, 6.630908312899163
 

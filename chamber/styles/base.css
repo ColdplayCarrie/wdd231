@@ -120,6 +120,44 @@ header.main-header {
     content: "\00D7";
 }
 
+/*!!!!**HOME PAGE - EVENTS/WEATHER SECTION**!!!!*/
+
+h3,
+h4,
+h5 {
+    font-size: xx-large;
+    padding-left: 1rem;
+    background-color: var(--pale-light-gray-green);
+    font-style: italic;
+    padding-top: .5rem;
+    padding-bottom: .25rem;
+    border-bottom: solid 1px var(--main-dark-green);
+    border-top: solid 1px var(--main-dark-green);
+}
+
+.main-container {
+    padding: 1rem;
+}
+
+.main-container section {
+    padding-bottom: 1.5rem;
+    background-color: var(--light-orange);
+}
+
+.main-container p,
+li {
+    font-size: x-large;
+    padding-left: 1rem;
+    padding-bottom: .5rem;
+    padding-top: .25rem;
+}
+
+.main-container li {
+    color: var(--main-dark-green);
+}
+
+/*!!!!**MEMBER CARDS SECTION**!!!!*/
+
 /****Grid/List Buttons****/
 .menu {
     font-size: large;
@@ -138,8 +176,6 @@ h2 {
     padding-top: .5rem;
     padding-bottom: .5rem;
 }
-
-
 
 #members p {
     font-size: small;

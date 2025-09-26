@@ -50,6 +50,20 @@
         display: none;
     }
 
+    /****HOME****/
+    .main-container {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .main-container section {
+        border: solid 1px var(--main-dark-green);
+    }
+
+    .main-container img {
+        background-color: var(--medium-gray-green);
+    }
+
     /****Directory****/
     .grid {
         grid-template-columns: 1fr 1fr 1fr;
