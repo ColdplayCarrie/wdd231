@@ -280,3 +280,24 @@ footer {
 .social a:hover {
     background-color: #ddd;
 }
+
+
+
+
+
+.spotlight-grid {
+    display: grid;
+    /* Arranges the cards in columns */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.spotlight-card {
+    /* Ensures the card itself is visible */
+    background-color: var(--pale-light-gray-green);
+    padding: 20px;
+    border: 1px solid var(--main-dark-green);
+    border-radius: 8px;
+    text-align: center;
+}
