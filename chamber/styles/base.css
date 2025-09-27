@@ -122,9 +122,9 @@ header.main-header {
 
 /*!!!!**HOME PAGE - EVENTS/WEATHER SECTION**!!!!*/
 
+h2,
 h3,
-h4,
-h5 {
+h4 {
     font-size: xx-large;
     padding-left: 1rem;
     background-color: var(--pale-light-gray-green);
@@ -210,13 +210,6 @@ h2 {
     border: 1px solid black;
 }
 
-/* .member-card-container.grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 1rem;
-    align-items: center;
-} */
-
 .member-card-container.list {
     display: flex;
     flex-direction: column;
@@ -242,7 +235,20 @@ h2 {
     background-color: #bbb;
 }
 
-/****HOME - WEATHER CARDS****/
+.spotlight-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.spotlight-card {
+    background-color: var(--pale-light-gray-green);
+    padding: 20px;
+    border: 1px solid var(--main-dark-green);
+    border-radius: 8px;
+    text-align: center;
+}
 
 
 /****FOOTER****/
@@ -279,25 +285,4 @@ footer {
 
 .social a:hover {
     background-color: #ddd;
-}
-
-
-
-
-
-.spotlight-grid {
-    display: grid;
-    /* Arranges the cards in columns */
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 1.5rem;
-    padding: 1rem;
-}
-
-.spotlight-card {
-    /* Ensures the card itself is visible */
-    background-color: var(--pale-light-gray-green);
-    padding: 20px;
-    border: 1px solid var(--main-dark-green);
-    border-radius: 8px;
-    text-align: center;
 }

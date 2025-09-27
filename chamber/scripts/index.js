@@ -80,7 +80,7 @@ function displayForecastResults(data) {
     forecastDayTwo.innerHTML = formatForecast(dailyForecasts[1]);
     forecastDayThree.innerHTML = formatForecast(dailyForecasts[3]);
 }
- 
+
 //member spotlights//
 const directoryUrl = "https://ColdplayCarrie.github.io/wdd231/chamber/data/members.json";
 const spotlightContainer = document.querySelector("#spotlight-container");
