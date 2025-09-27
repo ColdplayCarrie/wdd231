@@ -6,7 +6,7 @@ Light Orange: #f8f1e1
 **will I use this one?? -Dark Gray Green: #2a4235
 Orange: #f39926
 Gray Green: #9fb3a6*/
-
+ 
 * {
     margin: 0;
     font-family: "Open Sans", sans-serif;
@@ -27,8 +27,6 @@ h1 {
     font-size: 3rem;
     text-decoration: underline;
 }
-
-
 
 /****HEADER****/
 
@@ -121,7 +119,6 @@ header.main-header {
 }
 
 /*!!!!**HOME PAGE - EVENTS/WEATHER SECTION**!!!!*/
-
 h2,
 h3,
 h4 {
@@ -170,7 +167,8 @@ li {
     padding-bottom: 20px;
 }
 
-h2 {
+h5 {
+    font-size: x-large;
     color: var(--main-dark-green);
     font-style: italic;
     padding-top: .5rem;
@@ -249,7 +247,6 @@ h2 {
     border-radius: 8px;
     text-align: center;
 }
-
 
 /****FOOTER****/
 footer {

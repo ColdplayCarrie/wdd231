@@ -118,6 +118,136 @@ header.main-header {
     content: "\00D7";
 }
 
+/*!!!!**HOME PAGE - EVENTS/WEATHER SECTION**!!!!*/
+h2,
+h3,
+h4 {
+    font-size: xx-large;
+    padding-left: 1rem;
+    background-color: var(--pale-light-gray-green);
+    font-style: italic;
+    padding-top: .5rem;
+    padding-bottom: .25rem;
+    border-bottom: solid 1px var(--main-dark-green);
+    border-top: solid 1px var(--main-dark-green);
+}
+
+.main-container {
+    padding: 1rem;
+}
+
+.main-container section {
+    padding-bottom: 1.5rem;
+    background-color: var(--light-orange);
+}
+
+.main-container p,
+li {
+    font-size: x-large;
+    padding-left: 1rem;
+    padding-bottom: .5rem;
+    padding-top: .25rem;
+}
+
+.main-container li {
+    color: var(--main-dark-green);
+}
+
+/*!!!!**MEMBER CARDS SECTION**!!!!*/
+
+/****Grid/List Buttons****/
+.menu {
+    font-size: large;
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+
+/****Member Cards****/
+.member-card-container {
+    padding-bottom: 20px;
+}
+
+h5 {
+    font-size: x-large;
+    color: var(--main-dark-green);
+    font-style: italic;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+#members p {
+    font-size: small;
+    padding: .25rem;
+}
+
+#members a {
+    font-size: small;
+    color: navy;
+    font-weight: bold;
+    padding: .25rem;
+}
+
+.member-card-container {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.grid section {
+    width: 275px;
+    height: 350px;
+    margin: 20px;
+    padding: 20px;
+    background-color: var(--pale-light-gray-green);
+    box-shadow: 10px 10px gray;
+    text-align: center;
+}
+
+.grid section img {
+    width: auto;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.member-card-container.list {
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.list section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: none;
+    margin: 0;
+    padding: 0.5rem;
+}
+
+.list section img {
+    display: none;
+}
+
+.list section:nth-child(even) {
+    background-color: #bbb;
+}
+
+.spotlight-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+.spotlight-card {
+    background-color: var(--pale-light-gray-green);
+    padding: 20px;
+    border: 1px solid var(--main-dark-green);
+    border-radius: 8px;
+    text-align: center;
+}
+
 /****FOOTER****/
 footer {
     background-color: var(--main-dark-green);
@@ -152,85 +282,4 @@ footer {
 
 .social a:hover {
     background-color: #ddd;
-}
-
-/****Member Cards****/
-.member-card-container {
-    padding-bottom: 20px;
-}
-
-#members section {
-    margin: 20px;
-    padding: 20px;
-    background-color: var(--pale-light-gray-green);
-    box-shadow: 10px 10px gray;
-    text-align: center;
-}
-
-h2 {
-    color: var(--main-dark-green);
-    font-style: italic;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
-}
-
-#members p {
-    font-size: small;
-    padding: .25rem;
-}
-
-#members a {
-    font-size: small;
-    color: navy;
-    font-weight: bold;
-    padding: .25rem;
-}
-
-#members img {
-    border: 1px solid black;
-}
-
-/****Grid or List View****/
-.grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    grid-gap: 5px;
-    align-items: center;
-}
-
-h3 {
-    font-size: 1.2rem;
-}
-
-.list {
-    display: flex;
-    flex-direction: column;
-}
-
-.list section {
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    margin: 0;
-    padding: 0.25rem;
-
-    &>* {
-        margin: 0 1rem;
-    }
-
-    img {
-        display: none;
-    }
-
-    h3 {
-        font-size: 1rem;
-    }
-
-    &:nth-child(even) {
-        background-color: #bbb;
-    }
-}
-
-img {
-    width: auto;
-    height: 75px;
 }
