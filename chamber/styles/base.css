@@ -6,7 +6,7 @@ Light Orange: #f8f1e1
 **will I use this one?? -Dark Gray Green: #2a4235
 Orange: #f39926
 Gray Green: #9fb3a6*/
- 
+
 * {
     margin: 0;
     font-family: "Open Sans", sans-serif;
@@ -118,10 +118,14 @@ header.main-header {
     content: "\00D7";
 }
 
+.current {
+    margin-left: 1rem;
+}
+
 /*!!!!**HOME PAGE - EVENTS/WEATHER SECTION**!!!!*/
-h2,
-h3,
-h4 {
+.main-container h2,
+.main-container h3,
+.main-container h4 {
     font-size: xx-large;
     padding-left: 1rem;
     background-color: var(--pale-light-gray-green);
@@ -246,6 +250,141 @@ h5 {
     border: 1px solid var(--main-dark-green);
     border-radius: 8px;
     text-align: center;
+}
+
+
+/****JOIN - BECOME A MEMBER****/
+.form-container {
+    padding-bottom: 2rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.form-container h2 {
+    color: black;
+    background-color: var(--pale-light-gray-green);
+    font-size: xx-large;
+    text-align: center;
+    border: solid 1px black;
+    border-bottom: none;
+    padding-top: .75rem;
+}
+
+.form-container h3 {
+    background-color: var(--pale-light-gray-green);
+    text-align: center;
+    font-size: small;
+    font-style: italic;
+    color: red;
+    padding-bottom: .25rem;
+    border: solid 1px black;
+    border-top: none;
+}
+
+.form-container div {
+    padding-bottom: 1rem;
+}
+
+.form-container h4 {
+    padding-bottom: .5rem;
+    text-decoration: underline;
+}
+
+.form-container label {
+    font-weight: bold;
+}
+
+fieldset {
+    padding-left: 1rem;
+    padding-right: 0;
+}
+
+.membership-options {
+    display: flex;
+    flex-direction: column;
+}
+
+.select-membership {
+    border: none;
+}
+
+.select-membership label {
+    font-weight: normal;
+}
+
+.select-membership legend {
+    font-weight: bold;
+    font-size: x-large;
+    border-bottom: solid 1px black;
+    color: var(--main-dark-green);
+}
+
+.radio-option {
+    display: flex;
+    align-items: center;
+}
+
+.radio-option input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    accent-color: blue;
+}
+
+.radio-option label {
+    cursor: pointer;
+}
+
+label[for="business-description"] {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+}
+
+#business-description {
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+/*Submit Button*/
+button[type="submit"] {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    background-color: green;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+    max-width: 600px;
+    border: 4px solid black;
+    margin: .25rem;
+}
+
+.submit-button {
+    text-align: center;
+}
+
+/***THANK YOU PAGE****/
+.thank-you {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.thank-you p {
+    padding: 1rem;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    font-style: italic;
+    color: var(--main-dark-green);
+}
+
+.return-to-home {
+    padding-bottom: 1rem;
+    text-align: center;
+    font-style: italic;
 }
 
 /****FOOTER****/
