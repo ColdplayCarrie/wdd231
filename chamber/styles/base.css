@@ -393,6 +393,12 @@ button[type="submit"] {
     font-style: italic;
 }
 
+#form-results {
+    padding: .5rem;
+    font-size: x-large;
+    justify-content: space-between;
+}
+
 
 /****MEMBERSHIP LEVEL MODALS****/
 .membership-level-cards {

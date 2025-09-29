@@ -1,13 +1,19 @@
-const urlParams = new URLSearchParams(window.location.search);
 
-const fullName = urlParams.get("fullName");
-const email = urlParams.get("email");
-const phoneNumber = urlParams.get("phoneNumber");
-const businessName = urlParams.get("businessName");
-const timestamp = urlParams.get("timestamp");
+/****GET FORM INFORMATION & SEND TO THANK YOU PAGE****/
+const formInfo = new URLSearchParams(window.location.search);
+console.log(formInfo);
 
-document.getElementById("display-fullName").textContent = fullName;
-document.getElementById("display-email").textContent = email;
-document.getElementById("display-phoneNumber").textContent = phoneNumber;
-document.getElementById("display-businessName").textContent = businessName;
-document.getElementById("display-timestamp").textContent = timestamp; 
+console.log(formInfo.get("firstname"));
+console.log(formInfo.get("lastname"));
+console.log(formInfo.get("email"));
+console.log(formInfo.get("mobilephone"));
+console.log(formInfo.get("businessname"));
+console.log(formInfo.get("submissiontimestamp"));
+
+document.querySelector("#form-results").innerHTML = `
+<p><strong>Applicant name:</strong> ${formInfo.get("firstname")} ${formInfo.get("lastname")}</p>
+<p><strong>Email:</strong> ${formInfo.get("email")}</p>
+<p><strong>Phone Number:</strong> ${formInfo.get("mobilephone")}</p>
+<p><strong>Business/Organization Name:</strong> ${formInfo.get("businessname")}</p>
+<p><strong>Submission Timestamp:</strong> ${formInfo.get("submissiontimestamp")}</p>
+`;
