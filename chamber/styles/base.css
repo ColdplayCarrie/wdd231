@@ -256,8 +256,7 @@ h5 {
 /****JOIN - BECOME A MEMBER****/
 .form-container {
     padding-bottom: 2rem;
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 5px;
 }
 
 .form-container h2 {
@@ -292,6 +291,14 @@ h5 {
 
 .form-container label {
     font-weight: bold;
+}
+
+.form-container label input,
+.form-container label textarea {
+    display: block;
+    width: 75%;
+    box-sizing: border-box;
+    margin-top: 5px;
 }
 
 fieldset {
@@ -351,15 +358,14 @@ label[for="business-description"] {
 button[type="submit"] {
     padding-left: 4rem;
     padding-right: 4rem;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
     background-color: green;
     color: white;
     font-size: larger;
     font-weight: bold;
     max-width: 600px;
     border: 4px solid black;
-    margin: .25rem;
 }
 
 .submit-button {
@@ -386,6 +392,91 @@ button[type="submit"] {
     text-align: center;
     font-style: italic;
 }
+
+
+/****MEMBERSHIP LEVEL MODALS****/
+.membership-level-cards {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.membership-level-cards h4 {
+    font-size: xx-large;
+    padding-bottom: 1.5rem;
+}
+
+.membership-level-cards p {
+    font-size: x-large;
+    color: black;
+    font-weight: bold;
+    font-style: normal;
+    padding-bottom: .5rem;
+    font-style: italic;
+}
+
+.membership-level-cards button {
+    padding: .5rem;
+    margin-left: 7rem;
+    margin-right: 7rem;
+}
+
+.single-card {
+    padding-bottom: 1.5rem;
+    background-color: var(--pale-light-gray-green);
+    border: solid 1px black;
+    padding-top: .75rem;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-bottom: 1rem;
+}
+
+#open-level1 {
+    background-color: lightseagreen;
+}
+
+#open-level2 {
+    background-color: orange;
+}
+
+#open-level3 {
+    background-color: silver;
+}
+
+#open-level4 {
+    background-color: yellow;
+}
+
+#close-levels {
+    background-color: beige;
+    align-items: center;
+    justify-content: center;
+}
+
+#membership-levels {
+    border: none;
+    padding: 0;
+    max-width: 600px;
+    width: 90%;
+    overflow: hidden;
+}
+
+#membership-levels:modal {
+    margin: auto;
+}
+
+.modal-box-text {
+    padding: 30px;
+    min-height: 150px;
+    ;
+}
+
+#membership-levels::backdrop {
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(2px);
+}
+
 
 /****FOOTER****/
 footer {

@@ -46,104 +46,136 @@
     <main>
         <h1 class="current">Join</h1>
 
-        <div class="form-container">
-            <h2>Become a Member!</h2>
-            <h3>(complete all fields)</h3>
-            <form method="get" action="thankyou.html" class="form1" autocomplete="on">
+        <div class="everything-container">
+            <div class="form-container">
+                <h2>Become a Member!</h2>
+                <h3>(complete all fields)</h3>
+                <form method="get" action="thankyou.html" class="form1" autocomplete="on">
 
-                <fieldset>
-                    <div class="input-group">
-                        <label for="first-name">First Name:
-                            <input type="text" id="first-name" name="firstname" placeholder="John"
-                                autocomplete="given-name" required>
-                        </label>
-                    </div>
+                    <fieldset>
+                        <div class="input-group">
+                            <label for="first-name">First Name:
+                                <input type="text" id="first-name" name="firstname" placeholder="John"
+                                    autocomplete="given-name" required>
+                            </label>
+                        </div>
 
-                    <div class="input-group">
-                        <label for="last-name">Last Name:
-                            <input type="text" id="last-name" name="lastname" placeholder="Smith"
-                                autocomplete="family-name" required>
-                        </label>
-                    </div>
+                        <div class="input-group">
+                            <label for="last-name">Last Name:
+                                <input type="text" id="last-name" name="lastname" placeholder="Smith"
+                                    autocomplete="family-name" required>
+                            </label>
+                        </div>
 
-                    <div class="job-title">
-                        <label for="job-title">Job Title:
-                            <input type="text" id="job-title" name="jobtitle" placeholder="IT Manager"
-                                autocomplete="organization-title" required pattern="[A-Za-z\s-]{7,}"
-                                title="Organizational title must be 7 or more letters, spaces, or hyphens">
-                        </label>
-                    </div>
+                        <div class="job-title">
+                            <label for="job-title">Job Title:
+                                <input type="text" id="job-title" name="jobtitle" placeholder="IT Manager"
+                                    autocomplete="organization-title" required pattern="[A-Za-z\s-]{7,}"
+                                    title="Organizational title must be 7 or more letters, spaces, or hyphens">
+                            </label>
+                        </div>
 
-                    <div class="email">
-                        <label for="email-address">Email Address:
-                            <input type="email" id="applicant-email" name="applicant-email"
-                                placeholder="name@example.com" autocomplete="email" required
-                                title="Please enter a valid email address">
-                        </label>
-                    </div>
+                        <div class="email">
+                            <label for="applicant-email">Email Address:
+                                <input type="email" id="applicant-email" name="applicant-email"
+                                    placeholder="name@example.com" autocomplete="email" required
+                                    title="Please enter a valid email address">
+                            </label>
+                        </div>
 
-                    <div class="phone">
-                        <label for="mobile-phone">Mobile Phone Number:
-                            <input type="tel" id="mobile-phone" name="mobile-phone" placeholder="555-555-5555"
-                                autocomplete="tel-national" required
-                                title="Please enter a 10-digit phone number (e.g. 555-555-5555)">
-                        </label>
-                    </div>
+                        <div class="phone">
+                            <label for="mobile-phone">Mobile Phone Number:
+                                <input type="tel" id="mobile-phone" name="mobile-phone" placeholder="555-555-5555"
+                                    autocomplete="tel-national" required
+                                    title="Please enter a 10-digit phone number (e.g. 555-555-5555)">
+                            </label>
+                        </div>
 
-                    <div class="business-name">
-                        <label for="business-name">Business/Organization Name:
-                            <input type="text" id="business-name" name="business-name" placeholder="General Store"
-                                autocomplete="organization" required
-                                title="Please enter the name of your business or organization">
-                        </label>
-                    </div>
+                        <div class="business-name">
+                            <label for="business-name">Business/Organization Name:
+                                <input type="text" id="business-name" name="business-name" placeholder="General Store"
+                                    autocomplete="organization" required
+                                    title="Please enter the name of your business or organization">
+                            </label>
+                        </div>
 
-                    <div class="business-description">
-                        <label for="business-description">Business/Organization Description:
-                            <textarea id="business-description" name="business-description" rows="5" cols="50"
-                                title="Enter a brief description of your business/organization, including purpose and services"
-                                placeholder="Our business aims to preserve history through..."></textarea>
-                        </label>
-                    </div>
+                        <div class="business-description">
+                            <label for="business-description">Business/Organization Description:
+                                <textarea id="business-description" name="business-description" rows="5" cols="50"
+                                    title="Enter a brief description of your business/organization, including purpose and services"
+                                    placeholder="Our business aims to preserve history through..."></textarea>
+                            </label>
+                        </div>
 
-                    <fieldset class="select-membership">
-                        <legend>Membership Level (select one)</legend>
-                        <div class="membership-options">
-                            <div class="radio-option">
-                                <input type="radio" id="np-member" name="membership-level" value="NP" required>
-                                <label for="np-member">NP Membership
-                                    <br>
-                                    <span class="fee">(Non-Profit organizations only - No Fee)</span>
-                                </label>
+                        <fieldset class="select-membership">
+                            <legend>Membership Level (select one)</legend>
+                            <div class="membership-options">
+                                <div class="radio-option">
+                                    <input type="radio" id="np-member" name="membership-level" value="NP" required>
+                                    <label for="np-member">NP Membership
+                                        <br>
+                                        <span class="fee">(Non-Profit organizations only - No Fee)</span>
+                                    </label>
+                                </div>
+
+                                <div class="radio-option">
+                                    <input type="radio" id="bronze-member" name="membership-level" value="Bronze"
+                                        required>
+                                    <label for="bronze-member">Bronze Membership</label>
+                                </div>
+
+                                <div class="radio-option">
+                                    <input type="radio" id="silver-member" name="membership-level" value="Silver"
+                                        required>
+                                    <label for="silver-member">Silver Membership</label>
+                                </div>
+
+                                <div class="radio-option">
+                                    <input type="radio" id="gold-member" name="membership-level" value="Gold" required>
+                                    <label for="gold-member">Gold Membership</label>
+                                </div>
                             </div>
+                        </fieldset>
+                        <input type="hidden" id="submission-timestamp" name="submission_timestamp">
 
-                            <div class="radio-option">
-                                <input type="radio" id="bronze-member" name="membership-level" value="Bronze" required>
-                                <label for="bronze-member">Bronze Membership</label>
-                            </div>
-
-                            <div class="radio-option">
-                                <input type="radio" id="silver-member" name="membership-level" value="Silver" required>
-                                <label for="silver-member">Silver Membership</label>
-                            </div>
-
-                            <div class="radio-option">
-                                <input type="radio" id="gold-member" name="membership-level" value="Gold" required>
-                                <label for="gold-member">Gold Membership</label>
-                            </div>
+                        <div class="submit-button">
+                            <button type="submit">Become a Member Now!</button>
+                            <script src="scripts/join.js" defer></script>
                         </div>
                     </fieldset>
+                </form>
+            </div>
 
-                </fieldset>
-
-                <input type="hidden" id="submission-timestamp" name="submission_timestamp">
-
-                <div class="submit-button">
-                    <button type="submit">Become a Member Now!</button>
-                    <script src="scripts/join.js" defer></script>
+            <div class="membership-level-cards">
+                <h4>Membership Levels</h4>
+                <div class="single-card">
+                    <p>NP Membership Level</p>
+                    <button id="open-level1">Learn More</button>
                 </div>
-            </form>
-        </div>
+
+                <div class="single-card">
+                    <p>Bronze Membership Level</p>
+                    <button id="open-level2">Learn More</button>
+                </div>
+
+                <div class="single-card">
+                    <p>Silver Membership Level</p>
+                    <button id="open-level3">Learn More</button>
+                </div>
+
+                <div class="single-card">
+                    <p>Gold Membership Level</p>
+                    <button id="open-level4">Learn More</button>
+                </div>
+
+                <div class="modal-box">
+                    <dialog id="membership-levels">
+                        <div class="modal-box-text"></div>
+                        <button id="close-levels">Close</button>
+                    </dialog>
+                </div>
+            </div>
+
     </main>
 
     <footer>
