@@ -38,3 +38,24 @@ openLevel4.addEventListener("click", () => {
 closeLevels.addEventListener("click", () => {
     membershipLevels.close();
 })
+
+/****GET FORM INFORMATION & SEND TO THANK YOU PAGE****/
+document.getElementById("form1").addEventListener("submit", function (g) {
+    g.preventDefault();
+
+    const firstName = document.querySelector("#first-name").value;
+    const lastName = document.querySelector("#last-name").value;
+    const fullName = `${firstName} ${lastName}`;
+    const email = document.querySelector("#applicant-email").value;
+    const phoneNumber = document.querySelector("#mobile-phone").value;
+    const businessName = document.querySelector("#business-name").value;
+    const timestamp = document.querySelector("#submission-timestamp").value;
+
+    sessionStorage.setItem("formFullName", fullName);
+    sessionStorage.setItem("formEmail", email);
+    sessionStorage.setItem("formPhoneNumber", phoneNumber);
+    sessionStorage.setItem("formBusinessName", businessName);
+    sessionStorage.setItem("formTimestamp", timestamp);
+
+    window.location.href = "thankyou.html";
+});
