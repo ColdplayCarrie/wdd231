@@ -42,4 +42,17 @@ closeLevels.addEventListener("click", () => {
 const formInfo = new URLSearchParams(window.location.search);
 console.log(formInfo);
 
-document.querySelector("#form-results").innerHTML = ``;
+console.log(formInfo.get("firstname"));
+console.log(formInfo.get("lastname"));
+console.log(formInfo.get("email"));
+console.log(formInfo.get("mobilephone"));
+console.log(formInfo.get("businessname"));
+console.log(formInfo.get("submissiontimestamp"));
+
+document.querySelector("#form-results").innerHTML = `
+<p>Applicant name: ${formInfo.get("firstname")} ${formInfo.get("lastname")}</p>
+<p>Email: ${formInfo.get("email")}</p>
+<p>Phone Number: ${formInfo.get("mobilephone")}</p>
+<p>Business/Organization Name: ${formInfo.get("businessname")}</p>
+<p>Submission Timestamp: ${formInfo.get("submissiontimestamp")}</p>
+`;
