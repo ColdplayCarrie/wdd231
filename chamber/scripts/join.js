@@ -1,6 +1,6 @@
 /****TO JOIN****/
 document.addEventListener("DOMContentLoaded", function () {
-    const timestamp = document.querySelector("#timestamp");
+    const timestamp = document.querySelector("#submission-timestamp");
 
     if (timestamp) {
         const now = new Date();
