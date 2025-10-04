@@ -169,6 +169,8 @@ li {
 /****Member Cards****/
 .member-card-container {
     padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 h5 {
@@ -189,11 +191,6 @@ h5 {
     color: navy;
     font-weight: bold;
     padding: .25rem;
-}
-
-.member-card-container {
-    display: grid;
-    grid-template-columns: 1fr;
 }
 
 .grid section {
@@ -480,6 +477,33 @@ button[type="submit"] {
     backdrop-filter: blur(2px);
 }
 
+
+/****DISCOVER PAGE****/
+.place-card-container {
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.place-card-container h2 {
+    font-size: x-large;
+    color: var(--main-dark-green);
+    font-style: italic;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
+#places p {
+    font-size: small;
+    padding: .25rem;
+}
+
+#places a {
+    font-size: small;
+    color: navy;
+    font-weight: bold;
+    padding: .25rem;
+}
 
 /****FOOTER****/
 footer {
