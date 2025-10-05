@@ -18,21 +18,21 @@ function displayPlaces(places) {
         let placeDescription = document.createElement("p");
         let figure = document.createElement("figure");
         let placePhoto = document.createElement("img");
-        // let learnMoreBtn = document.createElement("button");
+        let learnMoreBtn = document.createElement("button");
 
         placePhoto.setAttribute("src", place.placePhoto);
         placePhoto.setAttribute("alt", `Photo of ${place.name}`);
         placePhoto.setAttribute("loading", "lazy");
         placePhoto.setAttribute("width", "200");
         placePhoto.setAttribute("height", "300");
-        // learnMoreBtn.setAttribute("type", "button");
+        learnMoreBtn.setAttribute("type", "button");
 
         figure.appendChild(placePhoto);
 
         placeName.textContent = `${place.name}`;
         placeAddress.textContent = `${place.address}`
         placeDescription.textContent = `${place.description}`;
-        // learnMoreBtn.textContent = "Learn More";
+        learnMoreBtn.textContent = "Learn More";
 
         card.appendChild(figure);
         card.appendChild(placeName);
