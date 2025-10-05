@@ -199,7 +199,7 @@ h5 {
     margin: 20px;
     padding: 20px;
     background-color: var(--pale-light-gray-green);
-    box-shadow: 10px 10px gray;
+
     text-align: center;
 }
 
@@ -478,7 +478,7 @@ button[type="submit"] {
 }
 
 
-***DISCOVER PAGE***
+/****DISCOVER PAGE****/
 .places-card-container {
     padding-bottom: 20px;
     display: grid;

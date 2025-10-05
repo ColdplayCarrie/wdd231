@@ -64,7 +64,7 @@
         background-color: var(--medium-gray-green);
     }
 
-    /****Directory****/
+    /****DIRECTORY PAGE****/
     .grid {
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -75,5 +75,9 @@
         grid-template-columns: 1fr 1fr;
     }
 
-    
+    /****DISCOVERY PAGE****/
+    .places-card-container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    } 
 }
