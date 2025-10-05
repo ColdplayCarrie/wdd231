@@ -478,7 +478,7 @@ button[type="submit"] {
 }
 
 
-/****DISCOVER PAGE****/
+***DISCOVER PAGE***
 .places-card-container {
     padding-bottom: 20px;
     display: grid;
@@ -514,9 +514,11 @@ button[type="submit"] {
 }
 
 #places section img {
-    width: auto;
-    height: 100ps;
-    border: solid 1px black;
+    width: 100%;
+    height: auto;
+    max-height: 200px;
+    object-fit: cover;
+    border: 1px solid black;
 }
 
 /****FOOTER****/
