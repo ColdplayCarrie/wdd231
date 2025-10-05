@@ -79,7 +79,16 @@
     #places {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        max-width: 500px;
+    }
+
+    #places section {
+        grid-template-areas:
+            "name"
+            "photograph"
+            "address"
+            "description"
+        ;
+
     }
 
     #places div {
