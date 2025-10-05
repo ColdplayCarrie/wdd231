@@ -1,4 +1,4 @@
-//Discover Cards stuff//
+// //Discover Cards stuff//
 const discoverUrl = "https://ColdplayCarrie.github.io/wdd231/chamber/data/discover.json";
 const placesCard = document.querySelector("#places");
 
@@ -10,12 +10,13 @@ async function getPlacesData() {
 
 getPlacesData();
 
-const displayPlaces = (places) => {
+function displayPlaces(places) {
     places.forEach((place) => {
         let card = document.createElement("section");
         let placeName = document.createElement("h2");
-        let placeStreetAddress = document.createElement("p");
-        let placesDescription = document.createElement("p");
+        let placeAddress = document.createElement("p");
+        let placeDescription = document.createElement("p");
+        let placePhoto = document.createElement("img");
 
         placeName.textContent = `${place.name}`;
         placeAddress.textContent = `${place.address}`

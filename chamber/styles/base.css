@@ -479,13 +479,13 @@ button[type="submit"] {
 
 
 /****DISCOVER PAGE****/
-.place-card-container {
+.places-card-container {
     padding-bottom: 20px;
     display: grid;
     grid-template-columns: 1fr;
 }
 
-.place-card-container h2 {
+.places-card-container h2 {
     font-size: x-large;
     color: var(--main-dark-green);
     font-style: italic;
@@ -503,6 +503,20 @@ button[type="submit"] {
     color: navy;
     font-weight: bold;
     padding: .25rem;
+}
+
+#places section {
+    width: 275px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: var(--pale-light-gray-green);
+    text-align: center;
+}
+
+#places section img {
+    width: auto;
+    height: 100ps;
+    border: solid 1px black;
 }
 
 /****FOOTER****/

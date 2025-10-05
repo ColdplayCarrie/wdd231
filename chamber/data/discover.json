@@ -4,49 +4,49 @@
             "name": "Jonsrud Viewpoint",
             "address": "15652 Bluff Road, Sandy, Oregon 97055",
             "description": "One of the best views of Mt. Hood in the state of Oregon, which includes the Sandy River Valley. Free and open 24 hours. Telescopic views available.",
-            "placePhoto": "images/jonsrud-viewpoint.webp"
+            "placePhoto": "jonsrud-viewpoint.webp"
         },
         {
             "name": "North American Bigfoot Center",
             "address": "31297 SE US-26, Boringm Oregon 97009",
             "description": "A unique and entertaining stop for everyone. Discover rare artifacts related to Bigfoot, and American legend comparable to the Loch Ness Monster. Gift shop and movie theater onsite.",
-            "placePhoto": "images/bigfoot-center.webp"
+            "placePhoto": "bigfoot-center.webp"
         },
         {
             "name": "Vista House at Crown Point",
             "address": "40700 Historic Columbia River Hwy, Corbett, Oregon 97019",
             "description": "An historical site that offers amazing views of the Columbia Gorge and is a memorial to Oregon pioneers. Free with a small shop inside.",
-            "placePhoto": "images/crown-point.webp"
+            "placePhoto": "crown-point.webp"
         },
         {
             "name": "Multnomah Falls",
             "address": "Exit 31 off of I-84, about 30 minutes East of Portland",
             "description": "The most famous waterfall in Oregon offers stunning scenery. The waterfall can be seen from the top after a somewhat challenging hike. $2.00 day use fee and a lodge with food and souveniers.",
-            "placePhoto": "images/multnomah-falls.webp"
+            "placePhoto": "multnomah-falls.webp"
         },
         {
             "name": "Boring Station Trailhead Park",
             "address": "28008 Keller Road, Boring, Oregon 97009",
             "description": "A day use park for picnics and just enjoying nature. The Springwater Corridor bike trail is accessible from the park. Parking and restroom facilities available.",
-            "placePhoto": "images/boring-station=trailhead.webp"
+            "placePhoto": "boring-station.webp"
         },
         {
             "name": "Liepold Farms",
             "address": "14480 SE Richey Road, Boring, Oregon 97009",
             "description": "A family-friendly farm with a petting zoo, tractor rides, corn maze, and depending on the season, fresh berries or pumpkin patch. Tickets available.",
-            "placePhoto": "images/liepold-farms.webp"
+            "placePhoto": "liepold-farms.webp"
         },
         {
             "name": "Barton Park",
             "address": "19009 SE Barton Park Road, Boring, Oregon 97009",
             "description": "A park and campground for the entire family. Access to river recreation on the Clackamas River, hiking, biking, picnicking, and lots of family fun. $9.00 parking fee. Campground reservations required if you want to camp.",
-            "placePhoto": "images/barton-park.webp"
+            "placePhoto": "barton-park.webp"
         },
         {
             "name": "Mountain View Golf Course",
             "address": "27195 SE Kelso Road #6005, Boring, Oregon 97009",
             "description": "A sometimes challenging 18-hole golf course with stunning views, including views of Mt. Hood. Restaurant and Lounge on-site",
-            "placePhoto": "images/mountain-view-golf.webp"
+            "placePhoto": "mountain-view-golf.webp"
         }
     ]
 }
