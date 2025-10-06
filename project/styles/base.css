@@ -1,0 +1,20 @@
+/*Deep Teal: #008080
+Creamy Yellow/Off-White: #FFFACD
+Coral/Salmon: #FA8072
+Charcoal Gray: #36454F
+
+Google Fonts: Montserrat for Headers and Body
+Google Fonts: Cedarville Cursive for fun things like quotes*/
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: "Montserrat", sans-serif;
+}
+
+:root {
+    --main-deep-teal: #008080;
+    --main-charcoal-gray: #36454F;
+    --off-white-creamy-yellow: #FFFACD;
+    --coral-salmon: #fa8072;
+}

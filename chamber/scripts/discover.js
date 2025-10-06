@@ -30,7 +30,7 @@ function displayPlaces(places) {
         placeName.textContent = `${place.name}`;
         placeAddress.textContent = `${place.address}`
         placeDescription.textContent = `${place.description}`;
-        learnMoreBtn.textContent = "Learn More";
+        learnMoreBtn.innerHTML = "Learn More";
 
         card.appendChild(figure);
         card.appendChild(placeName);
