@@ -494,13 +494,13 @@ button[type="submit"] {
 }
 
 #places section {
+    width: 90%;
     display: grid;
     grid-template-areas:
-        "name"
         "photo"
+        "name"
         "description"
         "address";
-    width: 275px;
     margin: 20px auto;
     padding: 20px;
     background-color: var(--pale-light-gray-green);
@@ -515,6 +515,9 @@ button[type="submit"] {
 #places section figure {
     grid-area: photo;
     padding: .25rem;
+
+    width: 100%;
+    overflow: hidden;
 }
 
 #places section p {
@@ -529,13 +532,10 @@ button[type="submit"] {
 }
 
 #places section img {
-    width: 100%;
-    height: auto;
-    max-height: 200px;
+    height: 300px;
     object-fit: cover;
     border: 1px solid black;
 }
-
 
 
 /****FOOTER****/

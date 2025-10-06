@@ -23,8 +23,6 @@ function displayPlaces(places) {
         placePhoto.setAttribute("src", place.placePhoto);
         placePhoto.setAttribute("alt", `Photo of ${place.name}`);
         placePhoto.setAttribute("loading", "lazy");
-        placePhoto.setAttribute("width", "200");
-        placePhoto.setAttribute("height", "300");
         learnMoreBtn.setAttribute("type", "button");
 
         figure.appendChild(placePhoto);
@@ -38,6 +36,7 @@ function displayPlaces(places) {
         card.appendChild(placeName);
         card.appendChild(placeAddress);
         card.appendChild(placeDescription);
+        card.appendChild(learnMoreBtn);
 
         placesCard.appendChild(card);
     })
