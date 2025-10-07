@@ -146,10 +146,6 @@ h1 {
     padding-top: .5rem;
     padding-bottom: .5rem;
 }
-#travel-stops section h2 {
-    grid-area: name;
-    padding: .25rem;
-}
 
 #travel-stops section {
     width: 90%;
@@ -157,12 +153,18 @@ h1 {
     grid-template-areas:
         "photo"
         "name"
-        "description"
-        "address";
+        "location"
+        "day"
+        "date";
     margin: 20px auto;
     padding: 20px;
     background-color: var(--pale-light-gray-green);
     text-align: center;
+}
+
+#travel-stops section h2 {
+    grid-area: name;
+    padding: .25rem;
 }
 
 #travel-stops section figure {
@@ -172,21 +174,27 @@ h1 {
     overflow: hidden;
 }
 
-#travel-stops section p {
+.travel-stop-day {
+    grid-area: day;
     font-size: small;
     padding: .25rem;
-    grid-area: description;
 }
 
-/* #travel-stops section address {
-    grid-area: address;
-    padding: .5rem
-} */
+.travel-stop-date {
+    grid-area: date;
+    font-size: small;
+    padding: .25rem;
+}
+
+#travel-stops h3 {
+    grid-area: location;
+    padding: .25rem;
+}
 
 #travel-stops section img {
     height: 300px;
     object-fit: cover;
-    border: 1px solid black;
+    border: 15px solid black;
 }
 
 /****FOOTER****/

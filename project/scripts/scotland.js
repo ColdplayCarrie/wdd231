@@ -16,12 +16,14 @@ export function displayTravelStops(travelStops) {
         let travelStopName = document.createElement("h2");
         let travelStopLocation = document.createElement("h3");
         let travelStopDayNumber = document.createElement("p");
+        travelStopDayNumber.className = "travel-stop-day"
         let travelStopDate = document.createElement("p")
+        travelStopDate.className = "travel-stop-date"
         let figure = document.createElement("figure");
         let travelStopPhoto = document.createElement("img");
         let learnMoreBtn = document.createElement("button");
 
-        travelStopPhoto.setAttribute("src", travelStop.travelStopPhoto);
+        travelStopPhoto.setAttribute("src", travelStop.photo);
         travelStopPhoto.setAttribute("alt", `Photo of ${travelStop.name}`);
         travelStopPhoto.setAttribute("loading", "lazy");
         learnMoreBtn.setAttribute("type", "button");
