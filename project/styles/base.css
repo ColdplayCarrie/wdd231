@@ -162,3 +162,7 @@ footer {
     width: 22px;
     height: 22px;
 }
+
+.footer p {
+    padding: .20rem;
+}
