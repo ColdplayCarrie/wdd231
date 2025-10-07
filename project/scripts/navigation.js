@@ -12,6 +12,7 @@ const hamburgerBtn = document.querySelector('#ham-btn');
 const navMenu = document.querySelector('#nav-bar');
 
 hamburgerBtn.addEventListener('click', () => {
-    navMenu.classList.toggle('open');
     hamburgerBtn.classList.toggle('open');
+    navMenu.classList.toggle('open');
+    
 });

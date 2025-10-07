@@ -6,7 +6,7 @@ Light Orange: #f8f1e1
 **will I use this one?? -Dark Gray Green: #2a4235
 Orange: #f39926
 Gray Green: #9fb3a6*/
- 
+
 * {
     margin: 0;
     font-family: "Open Sans", sans-serif;
@@ -113,7 +113,7 @@ header.main-header {
 #ham-btn::before {
     content: "\2630";
 }
-
+ 
 #ham-btn.open::before {
     content: "\00D7";
 }
