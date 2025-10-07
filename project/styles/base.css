@@ -131,6 +131,64 @@ h1 {
     width: 100%;
 }
 
+/****TRAVEL STOPS CARDS****/
+
+.travel-stops-container {
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.travel-stops-container h2 {
+    font-size: x-large;
+    color: var(--main-dark-green);
+    font-style: italic;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+#travel-stops section h2 {
+    grid-area: name;
+    padding: .25rem;
+}
+
+#travel-stops section {
+    width: 90%;
+    display: grid;
+    grid-template-areas:
+        "photo"
+        "name"
+        "description"
+        "address";
+    margin: 20px auto;
+    padding: 20px;
+    background-color: var(--pale-light-gray-green);
+    text-align: center;
+}
+
+#travel-stops section figure {
+    grid-area: photo;
+    padding: .25rem;
+    width: 100%;
+    overflow: hidden;
+}
+
+#travel-stops section p {
+    font-size: small;
+    padding: .25rem;
+    grid-area: description;
+}
+
+/* #travel-stops section address {
+    grid-area: address;
+    padding: .5rem
+} */
+
+#travel-stops section img {
+    height: 300px;
+    object-fit: cover;
+    border: 1px solid black;
+}
+
 /****FOOTER****/
 footer {
     background-color: var(--main-deep-teal);
