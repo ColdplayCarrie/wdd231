@@ -3,119 +3,119 @@
         {
             "name": "Coldplay @Wembley #1",
             "location": "London, England",
-            "dayNumber": "Day 1",
+            "dayNumber": "Solo Trip Day 1",
             "datesThere": "23 August 2025",
             "photo": "images/day-one.webp"
         },
         {
             "name": "Scotland!",
             "location": "London-->Glasgow",
-            "dayNumber": "Day 2",
+            "dayNumber": "Solo Trip Day 2",
             "datesThere": "24 August 2025",
             "photo": "images/day-two.webp"
         },
         {
             "name": "Kelvingrove Art Gallery & Museum",
             "location": "Glasgow, Scotland",
-            "dayNumber": "Day 3",
+            "dayNumber": "Solo Trip Day 3",
             "datesThere": "25 August 2025",
             "photo": "images/day-three.webp"
         },
         {
             "name": "Traveling to Edinburgh",
             "location": "Glasgow-->Edinburgh, Scotland",
-            "dayNumber": "Day 4",
+            "dayNumber": "Solo Trip Day 4",
             "datesThere": "26 August 2025",
             "photo": "images/day-four.webp"
         },
         {
             "name": "Strolling through Edinburgh",
             "location": "Edinburgh",
-            "dayNumber": "Day 5",
+            "dayNumber": "Solo Trip Day 5",
             "datesThere": "28 August 2025",
             "photo": "images/edinburgh-alley.webp"
         },
         {
             "name": "Back to London",
             "location": "Edinburgh-->London",
-            "dayNumber": "Day 6",
+            "dayNumber": "Solo Trip Day 6",
             "datesThere": "28 August 2025",
             "photo": "images/day-five.webp"
         },
         {
             "name": "Big Ben",
             "location": "London",
-            "dayNumber": "Day 7",
+            "dayNumber": "Solo Trip Day 7",
             "datesThere": "29 August 2025",
             "photo": "images/day-six.webp"
         },
         {
             "name": "King's Cross",
             "location": "London",
-            "dayNumber": "Day 8",
+            "dayNumber": "Solo Trip Day 8",
             "datesThere": "30 August 2025",
             "photo": "images/day-seven.webp"
         },
         {
             "name": "Bus Tour of London",
             "location": "London",
-            "dayNumber": "Day 8",
+            "dayNumber": "Solo Trip Day 8",
             "datesThere": "30 August 2025",
             "photo": "images/day-eight.webp"
         },
         {
             "name": "Coldplay @Wembley #2",
             "location": "London",
-            "dayNumber": "Day 9",
+            "dayNumber": "Solo Trip Day 9",
             "datesThere": "31 August 2025",
             "photo": "images/day-nine.webp"
         },
         {
             "name": "Heading Home",
             "location": "London-->Houston",
-            "dayNumber": "Day 10",
+            "dayNumber": "Solo Trip Day 10",
             "datesThere": "1 September 2025",
             "photo": "images/day-ten.webp"
         },
         {
             "name": "River in Glasgow",
             "location": "Glasgow, Scotland",
-            "dayNumber": "Day 3",
+            "dayNumber": "Solo Trip Day 3",
             "datesThere": "25 August 2025",
             "photo": "images/glasgow-river.webp"
         },
         {
             "name": "Glasgow University",
             "location": "Glasgow, Scotland",
-            "dayNumber": "Day 3",
+            "dayNumber": "Solo Trip Day 3",
             "datesThere": "25 August 2025",
             "photo": "images/glasgow-uni.webp"
         },
         {
             "name": "Vincent at The National Gallery",
             "location": "London",
-            "dayNumber": "Day 7",
+            "dayNumber": "Solo Trip Day 7",
             "datesThere": "29 August 2025",
             "photo": "images/van-gogh-sunflowers.webp"
         },
         {
             "name": "Westminster Abbey at Sunset",
             "location": "London",
-            "dayNumber": "Day 7",
+            "dayNumber": "Solo Trip Day 7",
             "datesThere": "29 August 2025",
             "photo": "images/westminster-abbey.webp"
         },
         {
             "name": "Red Phone Booth at Trafalgar Square",
             "location": "London",
-            "dayNumber": "Day 7",
+            "dayNumber": "Solo Trip Day 7",
             "datesThere": "29 August 2025",
             "photo": "images/red-phone-booth.webp"
         },
         {
             "name": "Union Jack at Parliament",
             "location": "London",
-            "dayNumber": "Day 7",
+            "dayNumber": "Solo Trip Day 7",
             "datesThere": "29 August 2025",
             "photo": "images/parliament.webp"
         }

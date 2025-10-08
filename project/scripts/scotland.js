@@ -13,8 +13,8 @@ getTravelStopsData();
 export function displayTravelStops(travelStops) {
     travelStops.forEach((travelStop) => {
         let card = document.createElement("section");
-        let travelStopName = document.createElement("h2");
-        let travelStopLocation = document.createElement("h3");
+        let travelStopName = document.createElement("h3");
+        let travelStopLocation = document.createElement("h4");
         let travelStopDayNumber = document.createElement("p");
         travelStopDayNumber.className = "travel-stop-day"
         let travelStopDate = document.createElement("p")

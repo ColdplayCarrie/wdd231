@@ -54,6 +54,12 @@ h1 {
     font-style: italic;
 }
 
+h2 {
+    padding: .5rem;
+    font-size: 1.5rem;
+    color: var(--main-deep-teal);
+}
+
 /****NAVIGATION****/
 
 .navigation {
@@ -139,32 +145,25 @@ h1 {
     grid-template-columns: 1fr;
 }
 
-.travel-stops-container h2 {
-    font-size: x-large;
-    color: var(--main-dark-green);
-    font-style: italic;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
-}
-
 #travel-stops section {
-    width: 90%;
     display: grid;
     grid-template-areas:
+        "day"
+        "location"
         "photo"
         "name"
-        "location"
-        "day"
         "date";
     margin: 20px auto;
     padding: 20px;
-    background-color: var(--pale-light-gray-green);
     text-align: center;
+    background-color: beige;
+    border: solid 1px black;
 }
 
-#travel-stops section h2 {
-    grid-area: name;
-    padding: .25rem;
+.travel-stops-container h3 {
+    font-size: x-large;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
 }
 
 #travel-stops section figure {
