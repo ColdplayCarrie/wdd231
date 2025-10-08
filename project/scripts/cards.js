@@ -3,6 +3,9 @@ const travelStopsUrl = "https://ColdplayCarrie.github.io/wdd231/project/data/tra
 const travelStopsCard = document.querySelector("#travel-stops");
 
 function getTravelStops(travelStops, searchTerms) {
+    if (!searchTerms || searchTerms.length === 0) {
+        return travelStops;
+    }
     const filteredTravelStops = travelStops.filter(travelStop => {
         const location = travelStop.location.toLowerCase();
         return searchTerms.some(word => location.includes(word));
