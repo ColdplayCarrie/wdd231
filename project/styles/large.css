@@ -53,6 +53,23 @@
     .social a:hover {
         background-color: var(--off-white-creamy-yellow);
     }
+
+    /****CARD DISPLAY****/
+    #travel-stops {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #travell-stops section {
+        width: 90%;
+    }
+
+    .travel-stops-container img:hover {
+        transform: scale(1.13);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.25),
+            0 6px 6px rgba(0, 0, 0, 0.2);
+    }
+
 }
 
 /****NAVIGATION****

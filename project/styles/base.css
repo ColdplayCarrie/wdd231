@@ -145,7 +145,14 @@ h2 {
     grid-template-columns: 1fr;
 }
 
+.travel-stops-container h3 {
+    font-size: large;
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+}
+
 #travel-stops section {
+    width: 90%;
     display: grid;
     grid-template-areas:
         "day"
@@ -156,14 +163,14 @@ h2 {
     margin: 20px auto;
     padding: 20px;
     text-align: center;
-    background-color: beige;
-    border: solid 1px black;
+    background-color: #EDEDED;
+    border: solid 3px var(--main-deep-teal);
 }
 
-.travel-stops-container h3 {
-    font-size: x-large;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
+#travel-stops section h3 {
+    grid-area: name;
+    padding: .25rem;
+    color: darkred;
 }
 
 #travel-stops section figure {
@@ -175,7 +182,8 @@ h2 {
 
 .travel-stop-day {
     grid-area: day;
-    font-size: small;
+    font-size: medium;
+    font-style: italic;
     padding: .25rem;
 }
 
@@ -185,15 +193,27 @@ h2 {
     padding: .25rem;
 }
 
-#travel-stops h3 {
+#travel-stops h4 {
     grid-area: location;
+    font-size: large;
     padding: .25rem;
 }
 
 #travel-stops section img {
     height: 300px;
     object-fit: cover;
-    border: 15px solid black;
+    border: 10px solid black;
+}
+
+#travel-stops button {
+    max-width: 40%;
+    padding: .5rem;
+    margin-top: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--main-deep-teal);
+    color: white;
 }
 
 /****FOOTER****/
