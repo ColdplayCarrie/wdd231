@@ -8,7 +8,7 @@ export async function createWeatherCard(cityName, lat, lon, containerElement) {
     const card = document.createElement('div');
     card.className = "weather-card";
     card.innerHTML = `
-    <h3>Current Weather in *${cityName}*</h3>
+    <h4>Current Weather in *${cityName}*</h4>
     <figure>
         <img id="${cityName.toLowerCase()}-icon" src="" alt="Weather Icon">
         <figcaption id="${cityName.toLowerCase()}-description"></figcaption>
