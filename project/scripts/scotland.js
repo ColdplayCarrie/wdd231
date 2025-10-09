@@ -1,4 +1,4 @@
-// // Scotland Cards //
+// Scotland Cards //
 
 import { loadAndDisplayStops } from "./cards.js";
 

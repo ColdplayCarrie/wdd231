@@ -54,7 +54,14 @@
         background-color: var(--off-white-creamy-yellow);
     }
 
-    /****CARD DISPLAY****/
+    /****WEATHER CARD DISPLAY****/
+    #weather-cards-container {
+        display: flex;
+        gap: 40px;
+        max-width: 900px;
+    }
+
+    /****TRAVEL CARD DISPLAY****/
     #travel-stops {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -71,40 +78,3 @@
     }
 
 }
-
-/****NAVIGATION****
-
-.navigation {
-    display: flex;
-    justify-content: space-between;
-    align-items: start;
-    max-height: fit-content;
-    list-style: none;
-    padding: 10px;
-    background-color: rgba(0, 0, 0, .3);
-}
-
-.navigation ul {
-    list-style-type: none;
-    padding-left: 0;
-    margin-left: 0;
-    padding-right: 15px;
-}
-
-.navigation a {
-    display: none;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    font-size: large;
-    border-bottom: none;
-    padding: .75rem 0;
-}
-
-.open a {
-    display: block;
-}
-
-.navigation a:hover {
-    background-color: var(--main-dark-green);
-}/

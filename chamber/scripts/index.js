@@ -8,7 +8,7 @@ const humidity = document.querySelector('#humidity');
 const forecastDayOne = document.querySelector('#forecast-day-one');
 const forecastDayTwo = document.querySelector('#forecast-day-two');
 const forecastDayThree = document.querySelector('#forecast-day-three');
-
+ 
 const myKey = "2936b130fdb47b8a30ab3d699edf700a"
 const myLat = "45.43"
 const myLong = "-122.37"
