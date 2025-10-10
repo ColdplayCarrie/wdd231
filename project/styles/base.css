@@ -56,22 +56,9 @@ h1 {
 
 h2 {
     padding: .5rem;
-    padding-bottom: 1.5rem;
+    /* padding-bottom: 1.5rem; */
     font-size: 1.5rem;
     color: var(--main-deep-teal);
-    text-decoration: underline;
-}
-
-h3,
-h4 {
-    padding-bottom: 10px;
-    font-size: large;
-}
-
-h3 {
-    color: var(--coral-salmon);
-    font-style: italic;
-    font-size: xx-large;
     text-decoration: underline;
 }
 
@@ -88,6 +75,15 @@ li {
     padding-bottom: 1rem;
     margin-left: 40px;
     text-align: center;
+}
+
+.why-solo p {
+    color: var(--coral-salmon);
+    font-size: xx-large;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    padding-bottom: 1.5rem;
 }
 
 .story {
@@ -223,12 +219,6 @@ ul {
     grid-template-columns: 1fr;
 }
 
-.travel-stops-container h3 {
-    font-size: large;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
-}
-
 #travel-stops section {
     width: 90%;
     display: grid;
@@ -245,10 +235,12 @@ ul {
     border: solid 3px var(--main-deep-teal);
 }
 
-#travel-stops section h3 {
+#travel-stops h3 {
     grid-area: name;
     padding: .25rem;
     color: darkred;
+    font-style: italic;
+    text-decoration: underline;
 }
 
 #travel-stops section figure {
