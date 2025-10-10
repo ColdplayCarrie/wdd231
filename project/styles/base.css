@@ -87,12 +87,14 @@ li {
 .why-solo {
     padding-bottom: 1rem;
     margin-left: 40px;
+    text-align: center;
 }
 
 .story {
     text-align: center;
     margin-left: 10px;
     margin-right: 10px;
+    padding-bottom: 20px;
 }
 
 ul {
@@ -139,9 +141,6 @@ ul {
 
 }
 
-/* .navigation a:hover {
-    background-color: var(--main-dark-green);
-} */
 
 /****HAMBURGER****/
 #ham-btn {
@@ -214,7 +213,6 @@ ul {
     font-size: medium;
     font-style: italic;
 }
-
 
 
 /****TRAVEL STOPS CARDS****/
@@ -294,6 +292,108 @@ ul {
     margin-right: auto;
     background-color: var(--main-deep-teal);
     color: white;
+}
+
+
+/****QUESTION FORM****/
+
+.form-container {
+    border: black;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 500px;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.form-container h2 {
+    background-color: var(--main-charcoal-gray);
+    color: white;
+    font-size: xx-large;
+    text-align: center;
+    border: solid 1px black;
+    border-bottom: none;
+    padding-top: .75rem;
+}
+
+.form-container div {
+    padding-bottom: 1.25rem;
+}
+
+.form-container p {
+    text-align: center;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    background-color: var(--main-charcoal-gray);
+    color: white;
+}
+
+.form-container label {
+    font-weight: bold;
+}
+
+.form-container label input,
+.form-container label textarea {
+    display: block;
+    width: 95%;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+
+.fields-container {
+    background-color: #EDEDED;
+    border: 1px solid black;
+}
+
+fieldset {
+    padding-left: 1rem;
+    padding-right: 0;
+    border: none;
+}
+
+/*Submit Button*/
+button[type="submit"] {
+    padding-left: 4rem;
+    padding-right: 4rem;
+    padding-top: .75rem;
+    padding-bottom: .75rem;
+    background-color: navy;
+    color: white;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.submit-button {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/***THANK YOU PAGE****/
+.thank-you {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.thank-you p {
+    padding: 1rem;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+    font-style: italic;
+    color: var(--main-dark-green);
+}
+
+.return-to-home {
+    padding-bottom: 3rem;
+    text-align: center;
+    font-size: large;
+    font-style: italic;
+}
+
+#form-results {
+    padding: .5rem;
+    font-size: x-large;
+    justify-content: space-between;
 }
 
 /****FOOTER****/
