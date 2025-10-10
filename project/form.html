@@ -26,10 +26,10 @@
 </head>
 
 <body>
-    <header class="header">
+    <header>
         <div class="brand-info">
             <img src="images/travel-solo-logo.svg" loading="lazy" alt="Logo for Travel Solo" width="150">
-            <h1>Travel Solo</h1>
+            <p>Travel Solo</p>
         </div>
 
         <nav id="nav-bar" class="navigation">
@@ -46,32 +46,32 @@
         <div class="form-container">
             <h2>Ask a Question!</h2>
             <p>(all fields required)</p>
-            <form method="get" action="thank-you.html" class="form1" id="form1" autocomplete="on">
+            <form method="get" action="thank-you.html" id="form1" autocomplete="on">
 
                 <div class="fields-container">
                     <fieldset>
-                        <div class="input-group">
+                        <div>
                             <label for="first-name">First Name:
                                 <input type="text" id="first-name" name="firstname" placeholder="Kris"
                                     autocomplete="given-name" required>
                             </label>
                         </div>
 
-                        <div class="input-group">
+                        <div>
                             <label for="last-name">Last Name:
                                 <input type="text" id="last-name" name="lastname" placeholder="Smith"
                                     autocomplete="family-name" required>
                             </label>
                         </div>
 
-                        <div class="email">
+                        <div>
                             <label for="email">Email Address:
                                 <input type="email" id="email" name="email" placeholder="name@example.com"
                                     autocomplete="email" required title="Please enter a valid email address">
                             </label>
                         </div>
 
-                        <div class="question">
+                        <div>
                             <label for="question">Ask your question here:
                                 <textarea id="question" name="question" rows="5" cols="50"
                                     title="Please enter a question" placeholder="How do you...?"></textarea>

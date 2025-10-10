@@ -48,15 +48,15 @@ header img {
     min-width: 0;
 }
 
-h1 {
+.brand-info p {
     padding-left: .5rem;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-style: italic;
+    font-weight: bold;
 }
 
-h2 {
+h1 {
     padding: .5rem;
-    /* padding-bottom: 1.5rem; */
     font-size: 1.5rem;
     color: var(--main-deep-teal);
     text-decoration: underline;
@@ -167,6 +167,14 @@ ul {
 
 .current {
     margin-left: 1rem;
+}
+
+.summary {
+    padding: .25rem;
+    line-height: 1.6;
+    max-width: 90%;
+    margin-left: 40px;
+    margin-right: 20px;
 }
 
 /****HERO IMAGE****/
