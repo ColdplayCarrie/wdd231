@@ -36,12 +36,10 @@ function displayTravelStops(travelStopsArray) {
         travelStopDate.className = "travel-stop-date"
         let figure = document.createElement("figure");
         let travelStopPhoto = document.createElement("img");
-        let learnMoreBtn = document.createElement("button");
 
         travelStopPhoto.setAttribute("src", travelStop.photo);
         travelStopPhoto.setAttribute("alt", `Photo of ${travelStop.name}`);
         travelStopPhoto.setAttribute("loading", "lazy");
-        learnMoreBtn.setAttribute("type", "button");
 
         figure.appendChild(travelStopPhoto);
 
@@ -49,14 +47,12 @@ function displayTravelStops(travelStopsArray) {
         travelStopLocation.textContent = `${travelStop.location}`
         travelStopDayNumber.textContent = `${travelStop.dayNumber}`;
         travelStopDate.textContent = `${travelStop.datesThere}`;
-        learnMoreBtn.innerHTML = "Learn More!";
 
         card.appendChild(figure);
         card.appendChild(travelStopName);
         card.appendChild(travelStopLocation);
         card.appendChild(travelStopDayNumber);
         card.appendChild(travelStopDate);
-        card.appendChild(learnMoreBtn);
 
         travelStopsCard.appendChild(card);
     })
