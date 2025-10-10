@@ -3,7 +3,7 @@
 const myKey = "2936b130fdb47b8a30ab3d699edf700a"
 
 export async function createWeatherCard(cityName, lat, lon, containerElement) {
-    const currentWeatherUrl = `//api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=imperial&appid=${myKey}`
+    const currentWeatherUrl = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&units=imperial&appid=${myKey}`
 
     const card = document.createElement('div');
     card.className = "weather-card";
