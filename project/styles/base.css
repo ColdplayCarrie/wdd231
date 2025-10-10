@@ -3,8 +3,7 @@ Creamy Yellow/Off-White: #FFFACD
 Coral/Salmon: #FA8072
 Charcoal Gray: #36454F
  
-Google Fonts: Montserrat for Headers and Body
-Google Fonts: Cedarville Cursive for fun things like quotes*/
+Google Fonts: Montserrat*/
 
 * {
     box-sizing: border-box;
@@ -21,7 +20,7 @@ Google Fonts: Cedarville Cursive for fun things like quotes*/
 
 body {
     max-width: 100%;
-    min-width: 250px;
+    min-width: 350px;
 }
 
 header {
