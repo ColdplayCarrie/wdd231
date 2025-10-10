@@ -78,7 +78,7 @@ li {
 }
 
 .why-solo p {
-    color: var(--coral-salmon);
+    color: darkred;
     font-size: xx-large;
     font-weight: bold;
     font-style: italic;
@@ -169,9 +169,41 @@ ul {
 }
 
 /****HERO IMAGE****/
+.hero {
+    position: relative;
+    margin: 0;
+}
+
 .hero img {
     width: 100%;
     border: none;
+}
+
+
+/****ASK A QUESTION BUTTON****/
+.question-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 10;
+    white-space: nowrap;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: white;
+    background-color: var(--main-deep-teal, #1E7041);
+    border: 1px solid white;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4);
+}
+
+.question-button:hover {
+    background-color: #0056B3;
+    transform: scale(1.03);
+    cursor: pointer;
 }
 
 
@@ -212,7 +244,6 @@ ul {
 
 
 /****TRAVEL STOPS CARDS****/
-
 .travel-stops-container {
     padding-bottom: 20px;
     display: grid;
@@ -288,7 +319,6 @@ ul {
 
 
 /****QUESTION FORM****/
-
 .form-container {
     border: black;
     margin: 0 auto;
@@ -386,6 +416,8 @@ button[type="submit"] {
     padding: .5rem;
     font-size: x-large;
     justify-content: space-between;
+    text-align: center;
+    padding-bottom: 1.5rem;
 }
 
 /****FOOTER****/
