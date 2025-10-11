@@ -12,13 +12,14 @@
     <link rel="stylesheet" href="styles/base.css">
     <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/large.css">
+    <link rel="icon" href="images/favicon.ico">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
     <script src="scripts/navigation.js" defer></script>
     <script type="module" src="scripts/index.js"></script>
-    <link rel="icon" href="images/favicon.ico">
+    <!--<link rel="icon" href="images/favicon.ico">-->
     <meta property="og:title" content="Carrie Amdal">
     <meta property="og:description"
         content="Come along and discover the joy of solo travel! View photos of my solo travels in the United Kingdom... go to Scotland and spend time in Glasgow and Edinburgh, and then continue on to London!">
@@ -36,8 +37,8 @@
         <nav id="nav-bar" class="navigation">
             <ul>
                 <li><a href="https://ColdplayCarrie.github.io/wdd231/project/index.html">Home</a></li>
-                <li><a href="https://ColdplayCarrie.github.io/wdd231/project/scotland.html">See Scotland</a></li>
-                <li><a href="https://ColdplayCarrie.github.io/wdd231/project/london.html">See London</a></li>
+                <li><a href="scotland.html">See Scotland</a></li>
+                <li><a href="london.html">See London</a></li>
             </ul>
             <button type="button" id="ham-btn" aria-label="Menu Button"></button>
         </nav>
@@ -100,7 +101,22 @@
         <p>Course Video Demonstrations & Reflection: <span><a href="https://coldplay.com" target="_blank"
                     src="images/1000018316.jpg" alt="Website author video explaing requirements">Video Link</a></span>
         </p>
+
+        <button id="videoPromptButton">View the Demo Video</button>
     </footer>
+
+    <div id="videoModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Ready for a Demo?</h2>
+            <p>Would you like to continue to the demonstration video?</p>
+            <div class="modal-actions">
+                <button id="confirmButton">Yes, Take Me There!</button>
+                <button id="cancelButton">Not now</button>
+            </div>
+        </div>
+    </div>
+
 </body>
 
 </html>

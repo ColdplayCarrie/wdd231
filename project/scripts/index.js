@@ -20,3 +20,38 @@ if (weatherContainer) {
 }
 
 loadAndDisplayStops([]);
+
+
+// MODAL IN FOOTER //
+document.addEventListener('DOMContentLoaded', () => {
+
+    const modal = document.getElementById('videoModal');
+    const btn = document.getElementById('videoPromptButton');
+    const span = document.getElementsByClassName('close-button')[0];
+    const confirmBtn = document.getElementById('confirmButton');
+    const cancelBtn = document.getElementById('cancelButton');
+
+    const videoURL = 'YOUR_DEMONSTRATION_VIDEO_LINK_HERE';
+
+    btn.onclick = function () {
+        modal.style.display = 'flex';
+    }
+
+    span.onclick = function () {
+        modal.style.display = 'none';
+    }
+
+    confirmBtn.onclick = function () {
+        window.open(videoURL, '_blank');
+    }
+
+    cancelBtn.onclick = function () {
+        modal.style.display = 'none';
+    }
+
+    window.onclick = function (event) {
+        if (event.target === modal) {
+            modal.style.display = 'none';
+        }
+    }
+});
