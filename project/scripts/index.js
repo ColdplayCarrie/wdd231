@@ -26,12 +26,12 @@ loadAndDisplayStops([]);
 document.addEventListener('DOMContentLoaded', () => {
 
     const modal = document.getElementById('videoModal');
-    const btn = document.getElementById('videoPromptButton');
+    const btn = document.getElementById('demoButton');
     const span = document.getElementsByClassName('close-button')[0];
     const confirmBtn = document.getElementById('confirmButton');
     const cancelBtn = document.getElementById('cancelButton');
 
-    const videoURL = 'YOUR_DEMONSTRATION_VIDEO_LINK_HERE';
+    const videoURL = 'https://www.youtube.com/watch?v=5Cd5-S4zUBk&t=2592s';
 
     btn.onclick = function () {
         modal.style.display = 'flex';
