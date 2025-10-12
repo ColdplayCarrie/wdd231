@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const confirmBtn = document.getElementById('confirmButton');
     const cancelBtn = document.getElementById('cancelButton');
 
-    const videoURL = 'https://www.youtube.com/watch?v=5Cd5-S4zUBk&t=2592s';
+    const videoURL = 'https://youtu.be/17-PTHI5sc4';
 
     btn.onclick = function () {
         modal.style.display = 'flex';
